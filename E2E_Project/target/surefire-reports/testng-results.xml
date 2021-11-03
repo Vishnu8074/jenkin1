@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-03T10:50:14Z" name="Command line suite" finished-at="2021-11-03T10:50:33Z" duration-ms="19376">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6d3c5255]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-11-03T10:50:14Z" name="Command line test" finished-at="2021-11-03T10:50:33Z" duration-ms="19376">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@6d3c5255]" started-at="2021-11-03T16:20:14Z" name="setUpClass" finished-at="2021-11-03T16:20:14Z" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b2e0f78]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@6d3c5255]" started-at="2021-11-03T16:20:14Z" name="tearDownClass" finished-at="2021-11-03T16:20:14Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+      <class name="testing.TestSet2">
+        <test-method signature="validateTitle()[pri:0, instance:testing.TestSet2@530712d]" started-at="2021-11-03T16:20:29Z" name="validateTitle" finished-at="2021-11-03T16:20:33Z" duration-ms="3681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- testing.TestSet2 -->
+      <class name="testing.TestSet1">
+        <test-method signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:testing.TestSet1@2eee3069]" started-at="2021-11-03T16:20:14Z" name="validateLogin" data-provider="data" finished-at="2021-11-03T16:20:22Z" duration-ms="8435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[spoorthy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:testing.TestSet1@2eee3069]" started-at="2021-11-03T16:20:22Z" name="validateLogin" data-provider="data" finished-at="2021-11-03T16:20:29Z" duration-ms="7116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepthi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- testing.TestSet1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
